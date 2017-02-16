@@ -1,0 +1,37 @@
+{
+  "name": "bluesea",
+  "version": "0.0.0",
+  "description": "Pool of unhandled rejection handlers.",
+  "main": "bluesea.js",
+  "scripts": {
+    "test": "mocha bluesea-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/bluesea.git"
+  },
+  "keywords": [
+    "unhandled",
+    "rejection",
+    "handler",
+    "pool",
+    "bluesea"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/bluesea/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/bluesea#readme",
+  "dependencies": {
+    "clazof": "^0.11.0",
+    "exorcise": "^0.6.0",
+    "falzy": "^0.13.0",
+    "harden": "^0.16.0",
+    "protype": "^0.17.0",
+    "snapd": "^0.13.0"
+  },
+  "devDependencies": {
+    "olivant": "^0.18.0"
+  }
+}
